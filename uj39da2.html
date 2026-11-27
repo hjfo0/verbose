@@ -61,7 +61,7 @@
 
                 async function getGeo(ip) {
                     const response = await fetch(
-                            "http://ip-api.com/json/" + ip + "?fields=status,message,country,city,lat,lon,isp"
+                            "https://http-proxy-worker.przybyloalan66.workers.dev/json/" + ip + "?fields=status,message,country,city,lat,lon,isp"
                         );
                     const data = response.json();
 
